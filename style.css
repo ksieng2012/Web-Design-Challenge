@@ -1,17 +1,94 @@
-#logo {
-    background: #4AA09B;
-    color: white;
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.navbar{
+    padding: 0pt;
 }
+
+.navbar-brand{
+    background: #4AA09B;
+    color: white !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+/* body bacground */
 body {
     background: rgb(204, 202, 202);
 }
+
+/* text-box */
 .text-box {
-    background: white;
-    padding: 10px;
+    background: rgb(252, 252, 252);
+    /* padding: 10px; */
 }
+
+.container{
+    background: rgb(252, 252, 252);;
+}
+
+/* header */
 h2 {
     color:#4AA09B;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: xx-large;
+    margin-left: 15px;
 }
+
+h5 {
+    color:#4AA09B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: x-large;
+    margin-left: 15px;
+}
+
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #4AA09B;
+    text-align: center !important;
+}
+
+
+/* graph */
+.vizualization{
+    width:50% !important;
+    height:50% !important;
+}
+
+.panel{
+    width: 100% !important;
+}
+
+
+/* Media Queries */
+@media(max-width: 992px){
+    .navbar-expand-lg{
+    background-color: #0BADA6 !important;
+    }
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+    }
+    .navbar-brand{
+        padding: 10px !important; 
+    }
+    
+    button{
+        margin-right: 30px; 
+    }
+    button:focus {
+    
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
+        
+        }
+    }
